@@ -21,9 +21,10 @@ In addition to `node index.js`, it should also be able to accept the request for
 
 ## TODOs
 
-- [ ] Figure out how to generate a random color
-- [ ] Figure out how to distinguish colors by hue and luminosity
-- [ ] Figure out how to receive command line arguments for hue and luminosity
+- [x] Figure out how to generate a random color
+- [x] Figure out how to distinguish colors by hue and luminosity
+- [x] Figure out how to receive command line arguments for hue and luminosity
 - [ ] Figure out how to print the color surrounded by a "hashtag" box & in the random color
 
 - - [ ] Figure out how to adjust dimensions of hashtag box based on user submitted dimensions
+- [ ] Figure out how to ask user for input from command line
