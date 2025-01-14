@@ -1,9 +1,6 @@
 // import dependencies
 import { argv } from 'node:process';
-import { stringify } from 'node:querystring';
-import boxen from 'boxen';
 import chalk from 'chalk';
-import Box from 'cli-box';
 import { randomColor } from 'randomcolor';
 
 //define random color and chalk for formatting output color

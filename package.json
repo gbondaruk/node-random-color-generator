@@ -19,9 +19,7 @@
     "typescript": "^5.7.3"
   },
   "dependencies": {
-    "boxen": "^8.0.1",
     "chalk": "^5.4.1",
-    "cli-box": "^6.0.10",
     "randomcolor": "^0.6.2"
   }
 }
