@@ -7,7 +7,7 @@ import { randomColor } from 'randomcolor';
 const color = randomColor();
 const chalkColor = chalk.hex(color);
 
-const userColor = randomColor({ luminosity: argv[2], hue: argv[3] });
+const userColor = randomColor({ luminosity: argv[3], hue: argv[2] });
 const chalkUserColor = chalk.hex(userColor);
 
 const onlyColor = randomColor({ hue: argv[2] });
