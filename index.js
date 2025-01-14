@@ -7,8 +7,11 @@ import { randomColor } from 'randomcolor';
 const color = randomColor();
 const chalkColor = chalk.hex(color);
 
-const userColor = randomColor({ luminosity: argv[3], hue: argv[2] });
+const userColor = randomColor({ luminosity: argv[2], hue: argv[3] });
 const chalkUserColor = chalk.hex(userColor);
+
+const onlyColor = randomColor({ hue: argv[2] });
+const chalkOnlyColor = chalk.hex(onlyColor);
 
 // if argv.length is over 3, values for luminosity and hue are pulled from argv[2] & argv[3], otherwise a random color is generated
 if (argv.length > 3) {
@@ -19,6 +22,19 @@ if (argv.length > 3) {
  ###############################
  #####                     #####
  #####       ${userColor}       #####
+ #####                     #####
+ ###############################
+ ###############################
+ ###############################`),
+  );
+} else if (argv.length === 3) {
+  console.log(
+    chalkOnlyColor(`
+ ###############################
+ ###############################
+ ###############################
+ #####                     #####
+ #####       ${onlyColor}       #####
  #####                     #####
  ###############################
  ###############################
